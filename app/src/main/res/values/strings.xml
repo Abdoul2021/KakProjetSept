@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Go4Lunch</string>
+    <string name="connexion">CONNEXION</string>
+    <string name="connection_succeed">Connexion : OK</string>
+    <string name="error_authentication_canceled">Connexion : NO</string>
+    <string name="error_no_internet">ERROR : NO INTERNET</string>
+    <string name="error_unknown_error">Unknown error (Erreur inconnue)</string>
+
+    //Facebook
+    <string name="facebook_application_id">1567127083653444</string>
+    <string name="facebook_login_protocol_scheme">fb1567127083653444</string>
+
+    //Twitter
+    <string name="twitter_consumer_key" >vav0bT2LfJOSU26ZlgbQvs5o0</string>
+    <string name="twitter_consumer_secret" >N0ELn64Zt0IbyHBIzSYwrZNcjVe5BMhws6tiSSHsIUi1n71rv0</string>
+
+</resources>
