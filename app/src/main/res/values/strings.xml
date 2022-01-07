@@ -11,7 +11,9 @@
     <string name="facebook_login_protocol_scheme">fb1567127083653444</string>
 
     //Twitter
-    <string name="twitter_consumer_key" >vav0bT2LfJOSU26ZlgbQvs5o0</string>
-    <string name="twitter_consumer_secret" >N0ELn64Zt0IbyHBIzSYwrZNcjVe5BMhws6tiSSHsIUi1n71rv0</string>
+    <string name="twitter_consumer_key">vav0bT2LfJOSU26ZlgbQvs5o0</string>
+    <string name="twitter_consumer_secret">N0ELn64Zt0IbyHBIzSYwrZNcjVe5BMhws6tiSSHsIUi1n71rv0</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

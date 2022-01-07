@@ -1,4 +1,4 @@
-package com.bf.go4lunch;
+package com.bf.go4lunch.ui;
 
 import android.os.Bundle;
 import android.view.View;

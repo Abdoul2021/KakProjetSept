@@ -1,10 +1,11 @@
-package com.bf.go4lunch;
+package com.bf.go4lunch.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
 
+import com.bf.go4lunch.R;
 import com.bf.go4lunch.databinding.ActivityMainBinding;
 import com.firebase.ui.auth.AuthUI;
 import com.firebase.ui.auth.ErrorCodes;
@@ -26,12 +27,7 @@ public class MainActivity extends BaseActivity<ActivityMainBinding> {
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setupListeners();
-    }
-
-    private void setupListeners(){
-        // Login Button
-        binding.loginButton.setOnClickListener(view -> startSignInActivity());
+        startSignInActivity();
     }
 
     private void startSignInActivity(){
@@ -49,7 +45,6 @@ public class MainActivity extends BaseActivity<ActivityMainBinding> {
                         .setTheme(R.style.LoginTheme)
                         .setAvailableProviders(providers)
                         .setIsSmartLockEnabled(false, true)
-                        .setLogo(R.drawable.logo)
                         .build(),
                 RC_SIGN_IN);
     }
