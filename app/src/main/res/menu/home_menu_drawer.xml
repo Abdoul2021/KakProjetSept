@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/menu_options"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/lunch"
+            android:icon="@drawable/ic_restaurant_menu"
+            android:title="@string/your_lunch"
+            android:checked="true"/>
+
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/settings"
+            android:checked="true"/>
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/logout"
+            android:checked="true"/>
+
+    </group>
+</menu>

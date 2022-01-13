@@ -7,6 +7,7 @@ import androidx.annotation.Nullable;
 
 import com.bf.go4lunch.R;
 import com.bf.go4lunch.databinding.ActivityMainBinding;
+import com.bf.go4lunch.ui.mapView.MapFragment;
 import com.firebase.ui.auth.AuthUI;
 import com.firebase.ui.auth.ErrorCodes;
 import com.firebase.ui.auth.IdpResponse;
